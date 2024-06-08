@@ -1,0 +1,2897 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0524.1403                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0524.1403)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='bank_loan_data (Bank Loan DB)' inline='true' name='federated.12163ex03uerja1e1al3x05xzah2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LAPTOP-VVS65L90\SQLEXPRESS01' name='sqlserver.158grhi1fb7zdi1h5ivgj09o1uv0'>
+            <connection authentication='sspi' class='sqlserver' dbname='Bank Loan DB' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' server='LAPTOP-VVS65L90\SQLEXPRESS01' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='sqlserver.158grhi1fb7zdi1h5ivgj09o1uv0' name='bank_loan_data' table='[dbo].[bank_loan_data]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='sqlserver.158grhi1fb7zdi1h5ivgj09o1uv0' name='bank_loan_data' table='[dbo].[bank_loan_data]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address_state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address_state]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>address_state</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>application_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[application_type]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>application_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_length</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[emp_length]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>emp_length</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[emp_title]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>emp_title</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[grade]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>grade</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_ownership</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[home_ownership]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>home_ownership</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[issue_date]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>issue_date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_credit_pull_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_credit_pull_date]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>last_credit_pull_date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_payment_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_payment_date]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>last_payment_date</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[loan_status]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>loan_status</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>next_payment_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[next_payment_date]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>next_payment_date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>member_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[member_id]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>member_id</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purpose</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[purpose]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>purpose</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sub_grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sub_grade]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>sub_grade</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>term</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[term]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>term</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verification_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[verification_status]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>verification_status</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annual_income]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>annual_income</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dti</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dti]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>dti</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>installment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[installment]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>installment</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[int_rate]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>int_rate</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_amount</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[loan_amount]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>loan_amount</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_acc</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[total_acc]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>total_acc</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_payment</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total_payment]</local-name>
+            <parent-name>[bank_loan_data]</parent-name>
+            <remote-alias>total_payment</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Loan Applications' datatype='integer' name='[Calculation_590816002989932545]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([id])' />
+      </column>
+      <column caption='MTD Loan Applications' datatype='integer' name='[Calculation_590816002991058946]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[id]&#13;&#10;END)' />
+      </column>
+      <column caption='MoM Loan Applications' datatype='real' name='[Calculation_590816003100282893]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_590816002991058946]- [MTD Loan Applications (copy)_590816003099910156])&#13;&#10;/[MTD Loan Applications (copy)_590816003099910156]' />
+      </column>
+      <column caption='Total Funded Amount' datatype='integer' name='[Calculation_590816003104817166]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([loan_amount])' />
+      </column>
+      <column caption='MoM Total Funded' datatype='real' name='[Calculation_590816003110862865]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([MoM Loan Applications (copy)_590816003105976335]-[MTD Total funded Amount (copy)_590816003110715408])&#13;&#10;/[MTD Total funded Amount (copy)_590816003110715408]' />
+      </column>
+      <column caption='Total Amount Received' datatype='integer' name='[Calculation_590816003112194066]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[total_payment]' />
+      </column>
+      <column caption='MoM Amount Received' datatype='real' name='[Calculation_590816003122229270]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([MTD Total funded Amount (copy)_590816003113082899]-[MTD Total Amount Received (copy)_590816003121688596])/ &#13;&#10;[MTD Total Amount Received (copy)_590816003121688596]' />
+      </column>
+      <column caption='Avg Interest Rate' datatype='real' name='[Calculation_590816003123195927]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='avg([int_rate])' />
+      </column>
+      <column caption='MoM Avg Int Rate' datatype='real' name='[Calculation_590816003125137434]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([MoM Loan Applications (copy)_590816003123855384]-[MTD Avg Int Rate (copy)_590816003124953113])/[MTD Avg Int Rate (copy)_590816003124953113]' />
+      </column>
+      <column caption='Avg DTI' datatype='real' name='[Calculation_590816003125747739]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([dti])' />
+      </column>
+      <column caption='MoM Avg DTI' datatype='real' name='[Calculation_590816003126849566]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([MTD Avg Int Rate (copy)_590816003126136860]-[MTD Avg DTI (copy)_590816003126747165])/[MTD Avg DTI (copy)_590816003126747165]' />
+      </column>
+      <column datatype='string' name='[Good vs Bad Loan]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+          <bin default-name='false' value='&quot;Bad Loan&quot;'>
+            <value>&quot;Charged Off&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Good Loan&quot;'>
+            <value>&quot;Current&quot;</value>
+            <value>&quot;Fully Paid&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='PMTD Avg DTI' datatype='real' name='[MTD Avg DTI (copy)_590816003126747165]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[dti]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='PMTD Avg Int Rate' datatype='real' name='[MTD Avg Int Rate (copy)_590816003124953113]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[int_rate]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='MTD Avg DTI' datatype='real' name='[MTD Avg Int Rate (copy)_590816003126136860]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[dti]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='PMTD Loan Applications ' datatype='integer' name='[MTD Loan Applications (copy)_590816003099910156]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[id]&#13;&#10;END)' />
+      </column>
+      <column caption='PMTD Total Amount Received' datatype='integer' name='[MTD Total Amount Received (copy)_590816003121688596]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;then&#13;&#10;[total_payment]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='PMTD Total funded Amount' datatype='integer' name='[MTD Total funded Amount (copy)_590816003110715408]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;then&#13;&#10;[loan_amount]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='MTD Total Amount Received' datatype='integer' name='[MTD Total funded Amount (copy)_590816003113082899]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[total_payment]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='MTD Total funded Amount' datatype='integer' name='[MoM Loan Applications (copy)_590816003105976335]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[loan_amount]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='MTD Avg Int Rate' datatype='real' name='[MoM Loan Applications (copy)_590816003123855384]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[int_rate]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='bank_loan_data' datatype='table' name='[__tableau_internal_object_id__].[bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF]' role='measure' type='quantitative' />
+      <column caption='Address State' datatype='string' name='[address_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Annual Income' datatype='real' name='[annual_income]' role='measure' type='quantitative' />
+      <column caption='Application Type' datatype='string' name='[application_type]' role='dimension' type='nominal' />
+      <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+      <column caption='Emp Length' datatype='string' name='[emp_length]' role='dimension' type='nominal' />
+      <column caption='Emp Title' datatype='string' name='[emp_title]' role='dimension' type='nominal' />
+      <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+      <column caption='Home Ownership' datatype='string' name='[home_ownership]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Installment' datatype='real' name='[installment]' role='measure' type='quantitative' />
+      <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+      <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+      <column caption='Last Credit Pull Date' datatype='date' name='[last_credit_pull_date]' role='dimension' type='ordinal' />
+      <column caption='Last Payment Date' datatype='date' name='[last_payment_date]' role='dimension' type='ordinal' />
+      <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+      <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+      <column caption='Member Id' datatype='integer' name='[member_id]' role='dimension' type='ordinal' />
+      <column caption='Next Payment Date' datatype='date' name='[next_payment_date]' role='dimension' type='ordinal' />
+      <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+      <column caption='Sub Grade' datatype='string' name='[sub_grade]' role='dimension' type='nominal' />
+      <column caption='Term' datatype='string' name='[term]' role='dimension' type='nominal' />
+      <column caption='Total Acc' datatype='integer' name='[total_acc]' role='measure' type='quantitative' />
+      <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+      <column caption='Verification Status' datatype='string' name='[verification_status]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Good vs Bad Loan]' type='palette'>
+            <map to='#4f4f4f'>
+              <bucket>&quot;Bad Loan&quot;</bucket>
+            </map>
+            <map to='#e1c233'>
+              <bucket>&quot;Good Loan&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bank_loan_data' id='bank_loan_data_A377AB7411BD47B7AF9FA0AB43F347AF'>
+            <properties context=''>
+              <relation connection='sqlserver.158grhi1fb7zdi1h5ivgj09o1uv0' name='bank_loan_data' table='[dbo].[bank_loan_data]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Avg DTI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Avg DTI' datatype='real' name='[Calculation_590816003125747739]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([dti])' />
+            </column>
+            <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_590816003125747739]' derivation='User' name='[usr:Calculation_590816003125747739:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125747739:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125747739:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125747739:qk]</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8372652B-A151-4EA5-B404-7324D1B300ED}' />
+    </worksheet>
+    <worksheet name='Avg Interest Rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Avg Interest Rate' datatype='real' name='[Calculation_590816003123195927]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='avg([int_rate])' />
+            </column>
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_590816003123195927]' derivation='User' name='[usr:Calculation_590816003123195927:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003123195927:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003123195927:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003123195927:qk]</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5E54F830-975A-45BB-9E9E-D87FAA66A47E}' />
+    </worksheet>
+    <worksheet name='Good Loan Issues'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='11'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Total Loan Applications' datatype='integer' name='[Calculation_590816002989932545]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([id])' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_590816003155521568]' role='measure' type='quantitative' user:unnamed='Good Loan Issues'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column datatype='string' name='[Good vs Bad Loan]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[loan_status]' new-bin='true'>
+                <bin default-name='false' value='&quot;Bad Loan&quot;'>
+                  <value>&quot;Charged Off&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Good Loan&quot;'>
+                  <value>&quot;Current&quot;</value>
+                  <value>&quot;Fully Paid&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_590816002989932545]' derivation='User' name='[usr:Calculation_590816002989932545:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_590816003155521568]' derivation='User' name='[usr:Calculation_590816003155521568:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.12163ex03uerja1e1al3x05xzah2].[Good vs Bad Loan]' />
+              <wedge-size column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002989932545:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.3038673400878906' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.7292816638946533' />
+                <format attr='mark-color' value='#13223a' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk] + [federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003155521568:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{8C3598C6-9DD8-471F-BFEC-CDB2B34FE411}' />
+    </worksheet>
+    <worksheet name='MTD Avg DTI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Avg DTI' datatype='real' name='[MTD Avg Int Rate (copy)_590816003126136860]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[dti]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[MTD Avg Int Rate (copy)_590816003126136860]' derivation='User' name='[usr:MTD Avg Int Rate (copy)_590816003126136860:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Avg Int Rate (copy)_590816003126136860:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Avg Int Rate (copy)_590816003126136860:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Avg Int Rate (copy)_590816003126136860:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A60D78B5-8ACC-445C-95D6-F72FC8C67E0E}' />
+    </worksheet>
+    <worksheet name='MTD Avg INT Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Avg Int Rate' datatype='real' name='[MoM Loan Applications (copy)_590816003123855384]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[int_rate]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[MoM Loan Applications (copy)_590816003123855384]' derivation='User' name='[usr:MoM Loan Applications (copy)_590816003123855384:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003123855384:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003123855384:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003123855384:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5B25F618-0E4A-4393-8380-2A5D820BC652}' />
+    </worksheet>
+    <worksheet name='MTD Total Amount Received'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Total Amount Received' datatype='integer' name='[MTD Total funded Amount (copy)_590816003113082899]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[total_payment]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+            <column-instance column='[MTD Total funded Amount (copy)_590816003113082899]' derivation='User' name='[usr:MTD Total funded Amount (copy)_590816003113082899:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Total funded Amount (copy)_590816003113082899:qk]' value='c&quot;$&quot;#,##0,,.0M;&quot;$&quot;-#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Total funded Amount (copy)_590816003113082899:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Total funded Amount (copy)_590816003113082899:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B436A983-8EB2-4E18-8B66-3318727262F1}' />
+    </worksheet>
+    <worksheet name='MTD Total Funded Amount'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Total funded Amount' datatype='integer' name='[MoM Loan Applications (copy)_590816003105976335]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[loan_amount]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column-instance column='[MoM Loan Applications (copy)_590816003105976335]' derivation='User' name='[usr:MoM Loan Applications (copy)_590816003105976335:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003105976335:qk]' value='c&quot;$&quot;#,##0,,.0M;-&quot;$&quot;#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003105976335:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003105976335:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{255AEE5D-00F4-4AFC-A3C8-D858950C622B}' />
+    </worksheet>
+    <worksheet name='MTD Total Loan Applications'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Loan Applications' datatype='integer' name='[Calculation_590816002991058946]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[id]&#13;&#10;END)' />
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_590816002991058946]' derivation='User' name='[usr:Calculation_590816002991058946:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002991058946:qk]' value='n#,##0,.0K;-#,##0,.0K' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002991058946:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>&lt;</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002991058946:qk]</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BA5D26C7-5B94-4803-A6BA-08343E08AA1D}' />
+    </worksheet>
+    <worksheet name='MoM Avg DTI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MoM Avg DTI' datatype='real' name='[Calculation_590816003126849566]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([MTD Avg Int Rate (copy)_590816003126136860]-[MTD Avg DTI (copy)_590816003126747165])/[MTD Avg DTI (copy)_590816003126747165]' />
+            </column>
+            <column caption='PMTD Avg DTI' datatype='real' name='[MTD Avg DTI (copy)_590816003126747165]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[dti]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='MTD Avg DTI' datatype='real' name='[MTD Avg Int Rate (copy)_590816003126136860]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[dti]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_590816003126849566]' derivation='User' name='[usr:Calculation_590816003126849566:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003126849566:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003126849566:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003126849566:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{920996D7-6135-4B70-918A-4579E7513033}' />
+    </worksheet>
+    <worksheet name='MoM Avg Int Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MoM Avg Int Rate' datatype='real' name='[Calculation_590816003125137434]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([MoM Loan Applications (copy)_590816003123855384]-[MTD Avg Int Rate (copy)_590816003124953113])/[MTD Avg Int Rate (copy)_590816003124953113]' />
+            </column>
+            <column caption='PMTD Avg Int Rate' datatype='real' name='[MTD Avg Int Rate (copy)_590816003124953113]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[int_rate]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='MTD Avg Int Rate' datatype='real' name='[MoM Loan Applications (copy)_590816003123855384]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[int_rate]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_590816003125137434]' derivation='User' name='[usr:Calculation_590816003125137434:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125137434:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125137434:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003125137434:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AE58373C-2D87-4579-82D7-D4D83210ED83}' />
+    </worksheet>
+    <worksheet name='MoM Loan Application'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MTD Loan Applications' datatype='integer' name='[Calculation_590816002991058946]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;THEN&#13;&#10;[id]&#13;&#10;END)' />
+            </column>
+            <column caption='MoM Loan Applications' datatype='real' name='[Calculation_590816003100282893]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_590816002991058946]- [MTD Loan Applications (copy)_590816003099910156])&#13;&#10;/[MTD Loan Applications (copy)_590816003099910156]' />
+            </column>
+            <column caption='PMTD Loan Applications ' datatype='integer' name='[MTD Loan Applications (copy)_590816003099910156]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;THEN&#13;&#10;[id]&#13;&#10;END)' />
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_590816003100282893]' derivation='User' name='[usr:Calculation_590816003100282893:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003100282893:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003100282893:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>&lt;</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003100282893:qk]</run>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{090B6025-060F-47C2-B514-FF856FCA99CD}' />
+    </worksheet>
+    <worksheet name='MoM Total Amount Received'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MoM Amount Received' datatype='real' name='[Calculation_590816003122229270]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([MTD Total funded Amount (copy)_590816003113082899]-[MTD Total Amount Received (copy)_590816003121688596])/ &#13;&#10;[MTD Total Amount Received (copy)_590816003121688596]' />
+            </column>
+            <column caption='PMTD Total Amount Received' datatype='integer' name='[MTD Total Amount Received (copy)_590816003121688596]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;then&#13;&#10;[total_payment]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='MTD Total Amount Received' datatype='integer' name='[MTD Total funded Amount (copy)_590816003113082899]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[total_payment]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_590816003122229270]' derivation='User' name='[usr:Calculation_590816003122229270:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003122229270:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003122229270:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003122229270:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D1E616FF-16F5-40EB-B45D-15B0BF97628A}' />
+    </worksheet>
+    <worksheet name='MoM Total funded Amount'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='MoM Total Funded' datatype='real' name='[Calculation_590816003110862865]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([MoM Loan Applications (copy)_590816003105976335]-[MTD Total funded Amount (copy)_590816003110715408])&#13;&#10;/[MTD Total funded Amount (copy)_590816003110715408]' />
+            </column>
+            <column caption='PMTD Total funded Amount' datatype='integer' name='[MTD Total funded Amount (copy)_590816003110715408]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=1&#13;&#10;then&#13;&#10;[loan_amount]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='MTD Total funded Amount' datatype='integer' name='[MoM Loan Applications (copy)_590816003105976335]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF &#13;&#10;DATEDIFF(&apos;month&apos;, [issue_date], {MAX([issue_date])})=0&#13;&#10;then&#13;&#10;[loan_amount]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Issue Date' datatype='date' name='[issue_date]' role='dimension' type='ordinal' />
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_590816003110862865]' derivation='User' name='[usr:Calculation_590816003110862865:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003110862865:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003110862865:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e6e6e6' fontname='Tableau Semibold' fontsize='11'><![CDATA[<[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003110862865:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7919C914-8235-4DB3-B073-49AE678F8C3C}' />
+    </worksheet>
+    <worksheet name='Total Amount Received'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Total Amount Received' datatype='integer' name='[Calculation_590816003112194066]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[total_payment]' />
+            </column>
+            <column-instance column='[Calculation_590816003112194066]' derivation='Sum' name='[sum:Calculation_590816003112194066:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Payment' datatype='integer' name='[total_payment]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[sum:Calculation_590816003112194066:qk]' value='c&quot;$&quot;#,##0,,.0M;&quot;$&quot;-#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[sum:Calculation_590816003112194066:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>[federated.12163ex03uerja1e1al3x05xzah2].[sum:Calculation_590816003112194066:qk]</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2B129549-E939-434C-8684-5F621F771BDD}' />
+    </worksheet>
+    <worksheet name='Total Funded Amount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Total Funded Amount' datatype='integer' name='[Calculation_590816003104817166]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([loan_amount])' />
+            </column>
+            <column caption='Loan Amount' datatype='integer' name='[loan_amount]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_590816003104817166]' derivation='User' name='[usr:Calculation_590816003104817166:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003104817166:qk]' value='c&quot;$&quot;#,##0,,.0M;&quot;$&quot;-#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003104817166:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003104817166:qk]</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{984F9FB2-EDA9-4FF0-83C9-E42CF9239D0B}' />
+    </worksheet>
+    <worksheet name='Total Loan Applications'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#a0cbe8' fontname='Segoe UI Semibold' fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bank_loan_data (Bank Loan DB)' name='federated.12163ex03uerja1e1al3x05xzah2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12163ex03uerja1e1al3x05xzah2'>
+            <column caption='Total Loan Applications' datatype='integer' name='[Calculation_590816002989932545]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([id])' />
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_590816002989932545]' derivation='User' name='[usr:Calculation_590816002989932545:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002989932545:qk]' value='n#,##0,.0K;-#,##0,.0K' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002989932545:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&lt;</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816002989932545:qk]</run>
+                <run fontcolor='#ffffff' fontname='Lato' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D3823DC0-CBD4-4432-A635-80DB8F70BF86}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='SUMMARY'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='3' is-scaled='1' param='C:/Users/Sayanti/Downloads/Tableau Background 1.jpg' type-v2='bitmap' w='99000' x='500' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='6111' id='5' type-v2='text' w='43875' x='29438' y='2222'>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Arial Black' fontsize='22'>BANK LOAN REPORT</run>
+            <run fontname='Arial Black' fontsize='22'> | </run>
+            <run fontcolor='#a0cbe8' fontname='Arial Black' fontsize='22'>SUMMARY</run>
+          </formatted-text>
+        </zone>
+        <zone h='7667' id='6' name='Total Loan Applications' w='15063' x='16688' y='10444' />
+        <zone h='4222' id='7' name='MTD Total Loan Applications' show-title='false' w='4563' x='17125' y='22556' />
+        <zone h='3333' id='8' type-v2='text' w='4000' x='17375' y='20556'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+          </formatted-text>
+        </zone>
+        <zone h='4333' id='9' name='MoM Loan Application' show-title='false' w='5250' x='26250' y='22444' />
+        <zone forceUpdate='true' h='3333' id='10' type-v2='text' w='4000' x='26750' y='20444'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+          </formatted-text>
+        </zone>
+        <zone h='8111' id='11' name='Total Funded Amount' w='15438' x='32938' y='10667' />
+        <zone h='5222' id='12' name='MTD Total Funded Amount' show-title='false' w='5188' x='33438' y='22222' />
+        <zone forceUpdate='true' h='3333' id='13' type-v2='text' w='4000' x='33813' y='19889'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3333' id='14' type-v2='text' w='4000' x='43188' y='20111'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+          </formatted-text>
+        </zone>
+        <zone h='6667' id='15' name='MoM Total funded Amount' show-title='false' w='4875' x='42750' y='21556' />
+        <zone h='7667' id='16' name='Total Amount Received' w='13313' x='50563' y='10556' />
+        <zone h='4889' id='17' name='MTD Total Amount Received' show-title='false' w='6250' x='49688' y='22000' />
+        <zone forceUpdate='true' h='3333' id='18' type-v2='text' w='4000' x='50750' y='20222'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3333' id='19' type-v2='text' w='4000' x='59813' y='20444'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+          </formatted-text>
+        </zone>
+        <zone h='4111' id='20' name='MoM Total Amount Received' show-title='false' w='4125' x='59875' y='22333' />
+        <zone h='7778' id='21' name='Avg Interest Rate' w='9688' x='68938' y='10556' />
+        <zone h='4222' id='22' name='MTD Avg INT Rate' show-title='false' w='4813' x='66750' y='22111' />
+        <zone h='3444' id='23' name='MoM Avg Int Rate' show-title='false' w='4063' x='76688' y='22556' />
+        <zone forceUpdate='true' h='3333' id='24' type-v2='text' w='4000' x='67000' y='20333'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3333' id='25' type-v2='text' w='4000' x='76688' y='20444'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+          </formatted-text>
+        </zone>
+        <zone h='7556' id='26' name='Avg DTI' w='8750' x='86375' y='10667' />
+        <zone h='4667' id='27' name='MTD Avg DTI' show-title='false' w='4000' x='83563' y='22111' />
+        <zone h='4333' id='28' name='MoM Avg DTI' show-title='false' w='5063' x='92813' y='22333' />
+        <zone forceUpdate='true' h='3333' id='29' type-v2='text' w='4000' x='83438' y='20667'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3333' id='30' type-v2='text' w='4000' x='93375' y='20556'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+          </formatted-text>
+        </zone>
+        <zone h='34000' id='31' name='Good Loan Issues' w='17250' x='16938' y='29889' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2250' minheight='2250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='34' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone fixed-size='280' h='98222' id='3' is-fixed='true' is-scaled='1' param='C:/Users/Sayanti/Downloads/Tableau Background 1.jpg' type-v2='bitmap' w='99000' x='500' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6111' id='5' type-v2='text' w='43875' x='29438' y='2222'>
+                  <formatted-text>
+                    <run fontcolor='#ffffff' fontname='Arial Black' fontsize='22'>BANK LOAN REPORT</run>
+                    <run fontname='Arial Black' fontsize='22'> | </run>
+                    <run fontcolor='#a0cbe8' fontname='Arial Black' fontsize='22'>SUMMARY</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='69' h='7667' id='6' is-fixed='true' name='Total Loan Applications' w='15063' x='16688' y='10444'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='69' h='7667' id='16' is-fixed='true' name='Total Amount Received' w='13313' x='50563' y='10556'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='70' h='7778' id='21' is-fixed='true' name='Avg Interest Rate' w='9688' x='68938' y='10556'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='73' h='8111' id='11' is-fixed='true' name='Total Funded Amount' w='15438' x='32938' y='10667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='68' h='7556' id='26' is-fixed='true' name='Avg DTI' w='8750' x='86375' y='10667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='13' type-v2='text' w='4000' x='33813' y='19889'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='14' type-v2='text' w='4000' x='43188' y='20111'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='18' type-v2='text' w='4000' x='50750' y='20222'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='24' type-v2='text' w='4000' x='67000' y='20333'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='10' type-v2='text' w='4000' x='26750' y='20444'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='19' type-v2='text' w='4000' x='59813' y='20444'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='25' type-v2='text' w='4000' x='76688' y='20444'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3333' id='8' type-v2='text' w='4000' x='17375' y='20556'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='30' type-v2='text' w='4000' x='93375' y='20556'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MoM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' id='29' type-v2='text' w='4000' x='83438' y='20667'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f1ce63' fontname='Segoe UI Semibold'>MTD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='60' h='6667' id='15' is-fixed='true' name='MoM Total funded Amount' show-title='false' w='4875' x='42750' y='21556'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='44' h='4889' id='17' is-fixed='true' name='MTD Total Amount Received' show-title='false' w='6250' x='49688' y='22000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='38' h='4222' id='22' is-fixed='true' name='MTD Avg INT Rate' show-title='false' w='4813' x='66750' y='22111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='42' h='4667' id='27' is-fixed='true' name='MTD Avg DTI' show-title='false' w='4000' x='83563' y='22111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='47' h='5222' id='12' is-fixed='true' name='MTD Total Funded Amount' show-title='false' w='5188' x='33438' y='22222'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='37' h='4111' id='20' is-fixed='true' name='MoM Total Amount Received' show-title='false' w='4125' x='59875' y='22333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='39' h='4333' id='28' is-fixed='true' name='MoM Avg DTI' show-title='false' w='5063' x='92813' y='22333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='39' h='4333' id='9' is-fixed='true' name='MoM Loan Application' show-title='false' w='5250' x='26250' y='22444'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='38' h='4222' id='7' is-fixed='true' name='MTD Total Loan Applications' show-title='false' w='4563' x='17125' y='22556'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='31' h='3444' id='23' is-fixed='true' name='MoM Avg Int Rate' show-title='false' w='4063' x='76688' y='22556'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34000' id='31' is-fixed='true' name='Good Loan Issues' w='17250' x='16938' y='29889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BADB8464-B7F4-4EFF-91B6-D0D3D3FB9CE4}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='SUMMARY'>
+      <viewpoints>
+        <viewpoint name='Avg DTI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg Interest Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Good Loan Issues'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MTD Avg DTI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MTD Avg INT Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MTD Total Amount Received'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MTD Total Funded Amount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MTD Total Loan Applications'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MoM Avg DTI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MoM Avg Int Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MoM Loan Application'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MoM Total Amount Received'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='MoM Total funded Amount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Amount Received'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Funded Amount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Loan Applications'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{47CBC675-143C-4F68-B5EA-451615442DCC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg DTI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{500C0EA3-7F7F-4CAA-AC6C-94A138F7605E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg Interest Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003123195927:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.12048831417204828</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{793247F7-A6C7-4F60-96A6-EB522FA7A79A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Good Loan Issues'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.12163ex03uerja1e1al3x05xzah2].[Good vs Bad Loan]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[Good vs Bad Loan]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{07F67004-F145-425E-88EA-D57B068F4B96}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MTD Avg DTI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8C4C8659-A591-4C44-805C-B5F732F1EEAC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MTD Avg INT Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[usr:MoM Loan Applications (copy)_590816003123855384:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.12356040867604229</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5CF7E5B8-36DD-4BD1-B12D-DDAE8D40D12A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MTD Total Amount Received'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[usr:MTD Total funded Amount (copy)_590816003113082899:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>58074380</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2D0FCEAC-5B8D-4AAD-8424-F3B841555FA2}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MTD Total Funded Amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9D523013-926A-4A50-B8A1-F3A9969E7335}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MTD Total Loan Applications'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1E0F853A-74C7-4F38-ACF1-1610BEDD8DB7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MoM Avg DTI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B229DCB5-1EB7-44B2-B44A-FAD7DD3BBC7A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MoM Avg Int Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002992005123:ok]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[none:Calculation_590816002993614857:nk]</field>
+            <field>[federated.12163ex03uerja1e1al3x05xzah2].[yr:issue_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D0EB310A-EF46-4900-B1CC-45AB0062C96E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MoM Loan Application'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{889B23B5-74A4-47C6-B4DD-0402EE2ED4BC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MoM Total Amount Received'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003122229270:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.15842865329810105</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{D4049294-5394-40B1-B3A1-9797BE0239BE}' />
+    </window>
+    <window class='worksheet' hidden='true' name='MoM Total funded Amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8670550A-37F8-42DA-9D48-073FE95B7CB9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Amount Received'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[sum:Calculation_590816003112194066:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>473070933</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{8917F51D-1620-4E48-B70C-139357307A5D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Funded Amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12163ex03uerja1e1al3x05xzah2].[usr:Calculation_590816003104817166:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>435757075</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{E21379B2-E6C2-43A4-B93E-E3DEDE807A23}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Loan Applications'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{02F21FD0-00FF-4750-85BF-2F3E308B3D12}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='SUMMARY' width='192'>
+      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
+      8lQOdP1sAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
